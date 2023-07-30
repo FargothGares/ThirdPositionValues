@@ -780,7 +780,33 @@ questions = [
         }
     },
     {
-        "question": "There are moral rules that should never be broken.",
+        "question": "Since agricultural exploitation has existed longer, we should make it our priority to dismantled it first.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": -1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "If different individuals are equal, so should be different cultures.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": -1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "The choice to abort or not should be given to the one carrying the fetus.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -788,38 +814,12 @@ questions = [
             "b4": 0,
             "b5": 0,
             "b6": 0,
-            "b7": 0,
-            "b8": -1,
+            "b7": -1,
+            "b8": 0,
         }
     },
     {
-        "question": "Schools should induce spiritual education.",
-        "effect": {
-            "b1": 0,
-            "b2": 0,
-            "b3": 0,
-            "b4": 0,
-            "b5": 0,
-            "b6": 0,
-            "b7": 0,
-            "b8": -1,
-        }
-    },
-    {
-        "question": "Religion must be respected.",
-        "effect": {
-            "b1": 0,
-            "b2": 0,
-            "b3": 0,
-            "b4": 0,
-            "b5": 0,
-            "b6": 0,
-            "b7": 0,
-            "b8": -1,
-        }
-    },
-    {
-        "question": "The nation must be united under one religion.",
+        "question": "We need a strong leader to protect the workers.",
         "effect": {
             "b1": 0,
             "b2": 0,

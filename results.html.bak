@@ -107,8 +107,8 @@
     b4Array = ["Civic Nationalist","Ethnic Nationalist","Classical Nationalist","Neutral","Racial Identitarian","Racial Nationalist","Racial Supremacist"]
     b5Array = ["Futurist","Revolutionary","Progressive","Neutral","Regressive","Reactionary","Antique"]
     b6Array = ["Technophilic","Accelerationist","Industrialist","Neutral","Decceleraitonist","Luddite","Primitivist"]
-    b7Array = ["Totalitarian","Authoritarian","Statist","Neutral","Libertarian","Minarchist","Anarchist"]
-    b8Array = ["State Atheist","Anti-Theist","Secularist","Mixed","Religious","Fundementalist","Theocratic"]
+    b7Array = ["Reactionary","Traditional","Conservative","Neutral","Reformist","Progressive","Revolutionary"]
+    b8Array = ["Everyman","Populist","Appealing","Neutral","Establishment","Elitist","Aristocratic"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else

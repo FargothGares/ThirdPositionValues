@@ -149,82 +149,82 @@ div.text-wrapper {
     display: inline-block;
 }
 div.v1 {
-    background-color: #c02500;
+    background-color: #480D05;
     text-align: left;
     border-right-style: solid;
 }
 div.v2 {
-    background-color: #ff0050;
+    background-color: #AF7047;
     text-align: right;
     border-left-style: solid;
 }
 div.v3 {
-    background-color: #a00000;
+    background-color: #F23418;
     text-align: left;
     border-right-style: solid;
 }
 div.v4 {
-    background-color: #ffa000;
+    background-color: #FFFFFF;
     text-align: right;
     border-left-style: solid;
 }
 div.v5 {
-    background-color: #c07500;
+    background-color: #284627;
     text-align: left;
     border-right-style: solid;
 }
 div.v6 {
-    background-color: #75c0c0;
+    background-color: #001ABF;
     text-align: right;
     border-left-style: solid;
 }
 div.v7 {
-    background-color: #750000;
+    background-color: #512C12;
     text-align: left;
     border-right-style: solid;
 }
 div.v8 {
-    background-color: #c0c0c0;
+    background-color: #BC2B11;
     text-align: right;
     border-left-style: solid;
 }
 div.v9 {
-    background-color: #e00000;
+    background-color: #51097C;
     text-align: left;
     border-right-style: solid;
 }
 div.v10 {
-    background-color: #a0a000;
+    background-color: #0F1E0F;
     text-align: right;
     border-left-style: solid;
 }
 div.v11 {
-    background-color: #5050c0;
+    background-color: #00117C;
     text-align: left;
     border-right-style: solid;
 }
 div.v12 {
-    background-color: #7500c0;
+    background-color: #174810;
     text-align: right;
     border-left-style: solid;
 }
 div.v13 {
-    background-color: #00a000;
+    background-color: #282828;
     text-align: left;
     border-right-style: solid;
 }
 div.v14 {
-    background-color: #ff75c0;
+    background-color: #F58681;
     text-align: right;
     border-left-style: solid;
 }
 div.v15 {
-    background-color: #c07575;
+    background-color: #4F709F;
     text-align: left;
     border-right-style: solid;
 }
 div.v16 {
-    background-color: #c050c0;
+    background-color: #BBABFB;
     text-align: right;
     border-left-style: solid;
 }
