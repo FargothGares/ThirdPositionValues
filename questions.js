@@ -363,6 +363,19 @@ questions = [
             "b8": 0,
         }
     },
+	{
+        "question": "Ethnicity matters more than race",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
     {
         "question": "It is evident in mere appearance that the races are biologically distinct, there are superior and inferior ones.",
         "effect": {
@@ -391,6 +404,19 @@ questions = [
     },
     {
         "question": "We should strive for pan-nationalism.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": -1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "Petty nationalism only stands in the way of uniting all of our blood.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -519,6 +545,32 @@ questions = [
             "b8": 0,
         }
     },
+	{
+        "question": "We must erase all traces of the past civilisations.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "Only the youth should be able to govern.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
     {
         "question": "In the future, we should improve our biology with technology.",
         "effect": {
@@ -560,6 +612,19 @@ questions = [
     },
     {
         "question": "Environmentalism is internationalist.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "A better world will come from automation, science, and technology.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -623,6 +688,32 @@ questions = [
             "b8": 0,
         }
     },
+	{
+        "question": "We should return to a primitive lifestyle.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": -1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "The threat of machines taking over humanity is very real.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": -1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
     {
         "question": "All within the state, nothing outside the state, nothing against the state.",
         "effect": {
@@ -672,6 +763,58 @@ questions = [
             "b5": 0,
             "b6": 0,
             "b7": 1,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "The sacrifice of some civil liberties is necessary to protect the people from danger.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 1,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "Any variant of anarchism will never work.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 1,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "It is very important to maintain and enforce law and order.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 1,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "No authority should be left unquestioned.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": -1,
             "b8": 0,
         }
     },
@@ -779,6 +922,19 @@ questions = [
             "b8": 1,
         }
     },
+	{
+        "question": "The seperation between church and state is paramount.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 1,
+        }
+    },
     {
         "question": "There are moral rules that should never be broken.",
         "effect": {
@@ -807,6 +963,19 @@ questions = [
     },
     {
         "question": "Religion must be respected.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": -1,
+        }
+    },
+	{
+        "question": "Atheism is deplorable.",
         "effect": {
             "b1": 0,
             "b2": 0,
