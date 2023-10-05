@@ -26,7 +26,7 @@ questions = [
         }
     },
     {
-        "question": "A violent revolution is neccessary to secure our people.",
+        "question": "A violent revolution is neccessary to secure our ideal.",
         "effect": {
             "b1": 1,
             "b2": 0,
@@ -78,7 +78,20 @@ questions = [
         }
     },
     {
-        "question": "All material wealth must be property of the State.",
+        "question": "All material wealth should be held in collective.",
+        "effect": {
+            "b1": 0,
+            "b2": 1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+	{
+        "question": "Total workplace democracy is desirable.",
         "effect": {
             "b1": 0,
             "b2": 1,
@@ -91,20 +104,7 @@ questions = [
         }
     },
     {
-        "question": "There should be no managers over the workers.",
-        "effect": {
-            "b1": 0,
-            "b2": 1,
-            "b3": 0,
-            "b4": 0,
-            "b5": 0,
-            "b6": 0,
-            "b7": 0,
-            "b8": 0,
-        }
-    },
-    {
-        "question": "A true Dictatorship of the Proletariat will come under our non-marxian Socialism.",
+        "question": "The state should be inherently of the working class.",
         "effect": {
             "b1": 0,
             "b2": 1,
@@ -169,7 +169,7 @@ questions = [
         }
     },
     {
-        "question": "Some level of entrepreneurship must be allowed.",
+        "question": "You cannot separate class warfare from materialism.",
         "effect": {
             "b1": 0,
             "b2": -1,
@@ -728,7 +728,7 @@ questions = [
         }
     },
     {
-        "question": "The state is the natural political organisation that a people uses to preserve its existence.",
+        "question": "The state is the most natural political organisation.",
         "effect": {
             "b1": 0,
             "b2": 0,

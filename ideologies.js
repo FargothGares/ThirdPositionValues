@@ -259,5 +259,31 @@ ideologies = [
             "b8": 15
         }
     },
+	{
+        "name": "Folkish Syndicalism",
+        "stats": {
+            "b1": 90,
+            "b2": 90,
+            "b3": 70,
+            "b4": 85,
+            "b5": 90,
+            "b6": 50,
+            "b7": 80,
+            "b8": 0
+        }
+    },
+	{
+        "name": "Crusade of Romanianism",
+        "stats": {
+            "b1": 50,
+            "b2": 80,
+            "b3": 85,
+            "b4": 80,
+            "b5": 65,
+            "b6": 50,
+            "b7": 35,
+            "b8": 5
+        }
+    },
 ];
 
