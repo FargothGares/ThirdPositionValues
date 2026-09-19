@@ -1,6 +1,7 @@
 questions = [
+    /* INSURRECTION QUESTIONS */
     {
-        "question": "The liberal system cannot be dissolved by peaceful means.",
+        "question": "A movement seeking real change must be prepared to act outside the laws of the existing state.",
         "effect": {
             "b1": 1,
             "b2": 0,
@@ -13,7 +14,7 @@ questions = [
         }
     },
     {
-        "question": "Politics is war, and every system, including the current one will crush any ideology that poses a mild threat to it.",
+        "question": "Every system, including the current one, will crush any movement that poses a threat to it.",
         "effect": {
             "b1": 1,
             "b2": 0,
@@ -26,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "A violent revolution is neccessary to secure our ideal.",
+        "question": "Gradual reform ultimately serves to preserve the system it claims to change.",
         "effect": {
             "b1": 1,
             "b2": 0,
@@ -39,7 +40,34 @@ questions = [
         }
     },
     {
-        "question": "We must partake in liberal democracy to take power in order to gain the respect of the public.",
+        "question": "The institutions of the existing order cannot be meaningfully transformed without first being overthrown.",
+        "effect": {
+            "b1": 1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Compromise with the existing order ultimately betrays the principles of our movement.",
+        "effect": {
+            "b1": 1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    /* REFORM QUESTIONS */
+    {
+        "question": "We must partake in electoral politics in order to take office.",
         "effect": {
             "b1": -1,
             "b2": 0,
@@ -52,7 +80,7 @@ questions = [
         }
     },
     {
-        "question": "The ends do not justify the means.",
+        "question": "We must take a position of moral superiority over the left, and maintain a peaceful movement.",
         "effect": {
             "b1": -1,
             "b2": 0,
@@ -65,7 +93,7 @@ questions = [
         }
     },
     {
-        "question": "We must take a position of moral superiority over the communists, and maintain a pacifistic movement.",
+        "question": "Lasting political change is best achieved through gradual, peaceful transformation.",
         "effect": {
             "b1": -1,
             "b2": 0,
@@ -78,7 +106,34 @@ questions = [
         }
     },
     {
-        "question": "All material wealth should be held in collective.",
+        "question": "Existing political institutions can be used as instruments for achieving fundamental change.",
+        "effect": {
+            "b1": -1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A movement should demonstrate its ability to govern before attempting to transform society.",
+        "effect": {
+            "b1": -1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    /* DOMINATION QUESTIONS*/
+    {
+        "question": "The state must embody one particular social or economic class.",
         "effect": {
             "b1": 0,
             "b2": 1,
@@ -91,7 +146,7 @@ questions = [
         }
     },
 	{
-        "question": "Total workplace democracy is desirable.",
+        "question": "Only one particular class is fit to lead the nation.",
         "effect": {
             "b1": 0,
             "b2": 1,
@@ -104,7 +159,7 @@ questions = [
         }
     },
     {
-        "question": "The state should be inherently of the working class.",
+        "question": "The interests of certain class(es) are inherently anti-national, and hence they must be liquidated.",
         "effect": {
             "b1": 0,
             "b2": 1,
@@ -117,7 +172,7 @@ questions = [
         }
     },
     {
-        "question": "Landlords are parasitic and under no pretext should they exist.",
+        "question": "A stable nation requires a clearly defined hierarchy between its social and economic classes.",
         "effect": {
             "b1": 0,
             "b2": 1,
@@ -130,7 +185,7 @@ questions = [
         }
     },
     {
-        "question": "The bourgeoisie ultimately work against the nation, and so they must be disposed of.",
+        "question": "Political power should belong primarily to the class whose interests are most compatible with the national interest.",
         "effect": {
             "b1": 0,
             "b2": 1,
@@ -142,8 +197,9 @@ questions = [
             "b8": 0,
         }
     },
+    /* COLLABORATION QUESTIONS */
     {
-        "question": "The bourgeoisie can be socialised and reformed under our non-Capitalist system.",
+        "question": "The unity of the nation requires each of its social & economic classes, regardless of their differences, to cooperate.",
         "effect": {
             "b1": 0,
             "b2": -1,
@@ -156,7 +212,7 @@ questions = [
         }
     },
     {
-        "question": "Class warfare merely divides the nation.",
+        "question": "Talk of class warfare, or the supremacy of one class over another, is only harmful for the nation.",
         "effect": {
             "b1": 0,
             "b2": -1,
@@ -169,7 +225,7 @@ questions = [
         }
     },
     {
-        "question": "You cannot separate class warfare from materialism.",
+        "question": "All social and economic classes can adapt to live harmoniously in the new system we are going to build.",
         "effect": {
             "b1": 0,
             "b2": -1,
@@ -182,7 +238,7 @@ questions = [
         }
     },
     {
-        "question": "There is no wrong in permitting small business.",
+        "question": "The nation is strengthened when dialogue exists between different social and economic classes.",
         "effect": {
             "b1": 0,
             "b2": -1,
@@ -195,7 +251,7 @@ questions = [
         }
     },
     {
-        "question": "The tripartite co-operation between State, Employee and Employer is essential for the economy.",
+        "question": "The prosperity of one social or economic class should not come at the deliberate expense of another.",
         "effect": {
             "b1": 0,
             "b2": -1,
@@ -207,8 +263,9 @@ questions = [
             "b8": 0,
         }
     },
+    /* ISOLATION QUESTIONS */
     {
-        "question": "The DPRK has a foreign policy that we should emulate.",
+        "question": "Alliances, even those with ideologically-aligned states, come at the cost of our own sovereignty.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -221,7 +278,7 @@ questions = [
         }
     },
     {
-        "question": "Our military should only be used for self-defense.",
+        "question": "It is in the nation's interests to seek economic self-sufficiency to the highest degree possible.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -234,7 +291,7 @@ questions = [
         }
     },
     {
-        "question": "We should pay little attention to what goes on outside our borders.",
+        "question": "A 'military-first' principle is essential to ensure our state is left undisturbed by international enemies, far and near.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -247,7 +304,7 @@ questions = [
         }
     },
     {
-        "question": "Engaging in imperialism would undermine our independence.",
+        "question": "Dependence on foreign powers, even in matters of mutual interest, ultimately compromises national independence.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -260,7 +317,21 @@ questions = [
         }
     },
     {
-        "question": "Our people need Living Space.",
+        "question": "Our nation should avoid binding international commitments that could compel it to act against its own interests.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    /* COOPERATION QUESTIONS */
+    {
+        "question": "We must work with ideologically-aligned states to build a new geopolitical bloc to challenge the current dominant powers.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -273,7 +344,7 @@ questions = [
         }
     },
     {
-        "question": "Empire-building and conquering can be virtuous.",
+        "question": "A nation can better secure its interests by pooling its strength with friendly nations than by standing alone.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -286,7 +357,7 @@ questions = [
         }
     },
     {
-        "question": "Imperialism is justified in order to secure our people's interests.",
+        "question": "International trade and economic interdependence can strengthen the nations that participate in them.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -299,7 +370,7 @@ questions = [
         }
     },
     {
-        "question": "War imposes the stamp of nobility upon the peoples who have the courage to make it.",
+        "question": "Diplomatic and strategic partnerships allow nations to accomplish what they could not accomplish independently.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -312,7 +383,21 @@ questions = [
         }
     },
     {
-        "question": "National identity is much more important than racial identity.",
+        "question": "The interests of allied nations can be sufficiently compatible to justify enduring commitments between them.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": -1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    /* CITIZENSHIP QUESTIONS */
+    {
+        "question": "Anyone who genuinely adopts the nation's laws, institutions, and civic culture can become fully part of the nation.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -325,7 +410,7 @@ questions = [
         }
     },
     {
-        "question": "National pride has no need for the delirium of race.",
+        "question": "Legal citizenship should be the primary basis for determining who belongs to the nation.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -338,7 +423,7 @@ questions = [
         }
     },
     {
-        "question": "The nation is not neccesarily determined by blood.",
+        "question": "Belonging to a nation comes from works done for said nation, someone born abroad can assimilate by working for the common good.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -351,7 +436,7 @@ questions = [
         }
     },
     {
-        "question": "Races are arbitrary constructs.",
+        "question": "A nation can incorporate people from different ancestral backgrounds without losing its essential identity.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -364,7 +449,7 @@ questions = [
         }
     },
 	{
-        "question": "Ethnicity matters more than race",
+        "question": "Commitment to the nation's political community matters more than inherited characteristics in determining national belonging.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -376,8 +461,9 @@ questions = [
             "b8": 0,
         }
     },
+    /* KINSHIP QUESTIONS */
     {
-        "question": "It is evident in mere appearance that the races are biologically distinct, there are superior and inferior ones.",
+        "question": "The nation is a body of people who are defined primarily by shared ancestry.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -390,7 +476,7 @@ questions = [
         }
     },
     {
-        "question": "Even if we don't share the same culture with another people, similarity in phenotype and intellect brings us together.",
+        "question": "Citizenship should not be handed out to those whose ancestors have no tie to these lands.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -403,7 +489,7 @@ questions = [
         }
     },
     {
-        "question": "We should strive for pan-nationalism.",
+        "question": "I share more in common with someone of my ethnic heritage born in another country than I do with someone of a different ethnic heritage born in my country.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -416,7 +502,7 @@ questions = [
         }
     },
 	{
-        "question": "Petty nationalism only stands in the way of uniting all of our blood.",
+        "question": "Assimilation is a myth, as culture is downstream of genetics.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -429,7 +515,7 @@ questions = [
         }
     },
     {
-        "question": "Political borders do not determine the boundaries of our people",
+        "question": "Immigration from biologically or culturally distant countries destroys nations through admixture.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -441,8 +527,9 @@ questions = [
             "b8": 0,
         }
     },
+    /* RESTORATION QUESTIONS */
     {
-        "question": "The monarchy is an important aspect of our culture that must be preserved.",
+        "question": "A society should actively recover customs and traditions that have been abandoned in the modern era.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -455,7 +542,7 @@ questions = [
         }
     },
     {
-        "question": "We must revolt against modernity, not just the modern world as it is but modernity itself.",
+        "question": "Long-standing social taboos often preserve wisdom that should not be discarded merely because they are outdated.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -468,7 +555,7 @@ questions = [
         }
     },
     {
-        "question": "The distant past had a superior method of societal organisation.",
+        "question": "Cultural reform should generally restore older standards rather than invent entirely new ones.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -481,10 +568,10 @@ questions = [
         }
     },
     {
-        "question": "We need an elitist, aristocratic class.",
+        "question": "Inherited customs deserve preservation even when their original practical purpose is no longer apparent.",
         "effect": {
             "b1": 0,
-            "b2": -1,
+            "b2": 0,
             "b3": 0,
             "b4": 0,
             "b5": -1,
@@ -494,7 +581,21 @@ questions = [
         }
     },
     {
-        "question": "The Futurist art movement is virtuous.",
+        "question": "Modern society has discarded important traditions that should be deliberately reintroduced.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": -1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    /* TRANSGRESSIVE QUESTIONS */
+    {
+        "question": "Social taboos should be challenged when they stand in the way of cultural renewal.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -507,7 +608,7 @@ questions = [
         }
     },
     {
-        "question": "We need a national palingenesis in order to revitalise the spirit of our people.",
+        "question": "A healthy culture must be willing to discard traditions that have outlived their usefulness.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -520,7 +621,7 @@ questions = [
         }
     },
     {
-        "question": "Our movement represents authentic social justice.",
+        "question": "Moral conventions inherited from previous generations should not be treated as inherently authoritative.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -533,7 +634,7 @@ questions = [
         }
     },
     {
-        "question": "Our movement is truly democratic; it represents the true will of the people.",
+        "question": "Art and cultural expression should be free to violate established social norms.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -546,7 +647,7 @@ questions = [
         }
     },
 	{
-        "question": "We must erase all traces of the past civilisations.",
+        "question": "Deliberately challenging established customs can be necessary to create a stronger culture.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -558,21 +659,9 @@ questions = [
             "b8": 0,
         }
     },
-	{
-        "question": "Only the youth should be able to govern.",
-        "effect": {
-            "b1": 0,
-            "b2": 0,
-            "b3": 0,
-            "b4": 0,
-            "b5": 1,
-            "b6": 0,
-            "b7": 0,
-            "b8": 0,
-        }
-    },
+    /* DEVELOPMENT QUESTIONS */
     {
-        "question": "In the future, we should improve our biology with technology.",
+        "question": "Technological and industrial development is a necessity for the advancement of the nation.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -585,7 +674,7 @@ questions = [
         }
     },
     {
-        "question": "Damage to the environment is acceptable if it furthers the nation's goals.",
+        "question": "Adhering to environmental regulations, when many other states do not, is only detrimental to us.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -598,7 +687,7 @@ questions = [
         }
     },
     {
-        "question": "The Industrial Revolution was a neccessary development in history.",
+        "question": "Unused land should be made productive through construction, agriculture, infrastructure, or industry.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -611,7 +700,7 @@ questions = [
         }
     },
     {
-        "question": "Environmentalism is internationalist.",
+        "question": "Economic growth should take precedence over preserving landscapes in their existing state.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -624,7 +713,7 @@ questions = [
         }
     },
 	{
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "A nation should continually expand its productive capacity rather than settle for what it has already built.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -636,8 +725,9 @@ questions = [
             "b8": 0,
         }
     },
+    /* PRESERVATION QUESTIONS */
     {
-        "question": "We must protect nature, even if that means lowering our quality of life.",
+        "question": "Some natural landscapes possess an intrinsic value that economic development cannot replace.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -650,7 +740,7 @@ questions = [
         }
     },
     {
-        "question": "Agrarian and rural living is superior to urbanism.",
+        "question": "Certain areas should remain undeveloped regardless of their potential economic value.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -663,7 +753,7 @@ questions = [
         }
     },
     {
-        "question": "We should be skeptical of new technologies.",
+        "question": "The destruction of ecosystems for short-term economic gain is an unacceptable cost of development.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -676,7 +766,7 @@ questions = [
         }
     },
     {
-        "question": "Agriculture didn't just domesticate the pig and the cow, but man himself.",
+        "question": "A nation's natural heritage should be deliberately protected for future generations.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -689,7 +779,7 @@ questions = [
         }
     },
 	{
-        "question": "We should return to a primitive lifestyle.",
+        "question": "Development should be concentrated where it causes the least disruption to the surrounding natural environment.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -701,19 +791,7 @@ questions = [
             "b8": 0,
         }
     },
-	{
-        "question": "The threat of machines taking over humanity is very real.",
-        "effect": {
-            "b1": 0,
-            "b2": 0,
-            "b3": 0,
-            "b4": 0,
-            "b5": 0,
-            "b6": -1,
-            "b7": 0,
-            "b8": 0,
-        }
-    },
+    /* TOTALITY QUESTIONS */
     {
         "question": "All within the state, nothing outside the state, nothing against the state.",
         "effect": {
@@ -728,7 +806,7 @@ questions = [
         }
     },
     {
-        "question": "The state is the most natural political organisation.",
+        "question": "The state must possess the authority to subordinate all competing institutions to the national whole.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -741,7 +819,7 @@ questions = [
         }
     },
     {
-        "question": "The state must be totalitarian in nature.",
+        "question": "Political unity requires a common governing doctrine rather than competing ideological factions.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -754,20 +832,7 @@ questions = [
         }
     },
     {
-        "question": "A unitary state is neccessary.",
-        "effect": {
-            "b1": 0,
-            "b2": 0,
-            "b3": 0,
-            "b4": 0,
-            "b5": 0,
-            "b6": 0,
-            "b7": 1,
-            "b8": 0,
-        }
-    },
-	{
-        "question": "The sacrifice of some civil liberties is necessary to protect the people from danger.",
+        "question": "Organised opposition to the established order should not be permitted to develop into an independent political force.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -780,7 +845,7 @@ questions = [
         }
     },
 	{
-        "question": "Any variant of anarchism will never work.",
+        "question": "The institutions of civil society should serve the political and national objectives of the state rather than operate independently of them.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -792,21 +857,9 @@ questions = [
             "b8": 0,
         }
     },
+    /* PLURALITY QUESTIONS */
 	{
-        "question": "It is very important to maintain and enforce law and order.",
-        "effect": {
-            "b1": 0,
-            "b2": 0,
-            "b3": 0,
-            "b4": 0,
-            "b5": 0,
-            "b6": 0,
-            "b7": 1,
-            "b8": 0,
-        }
-    },
-	{
-        "question": "No authority should be left unquestioned.",
+        "question": "Shutting down dialogue between opposing views in our new system will only harm us intellectually.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -819,7 +872,7 @@ questions = [
         }
     },
     {
-        "question": "A decentralised economy is ideal.",
+        "question": "Different political tendencies should be able to organise and advocate for their interests within the national system.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -832,7 +885,7 @@ questions = [
         }
     },
     {
-        "question": "My ideal society would be composed of tightly-knit communes.",
+        "question": "The nation is strengthened when power is distributed among institutions capable of checking one another.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -845,7 +898,7 @@ questions = [
         }
     },
     {
-        "question": "There is such a thing as inalienable rights.",
+        "question": "Regional and local authorities should retain meaningful powers of their own rather than merely executing the decisions of the central government.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -858,10 +911,10 @@ questions = [
         }
     },
     {
-        "question": "The right to property is fundemental.",
+        "question": "Different social organisations can pursue their own interests while remaining part of a common political order.",
         "effect": {
             "b1": 0,
-            "b2": -1,
+            "b2": 0,
             "b3": 0,
             "b4": 0,
             "b5": 0,
@@ -870,8 +923,9 @@ questions = [
             "b8": 0,
         }
     },
+    /* MATERIAL QUESTIONS */
     {
-        "question": "All religions should be treated equally before the state.",
+        "question": "Religion ought to be cast into the dustbin of history.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -884,7 +938,7 @@ questions = [
         }
     },
     {
-        "question": "Religious values should not influence governance.",
+        "question": "Moral principles should be grounded in human reason rather than divine revelation.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -897,7 +951,7 @@ questions = [
         }
     },
     {
-        "question": "Religion is a psychic disease of the brain.",
+        "question": "Public institutions should operate independently of religious authority.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -910,7 +964,7 @@ questions = [
         }
     },
     {
-        "question": "Religious morality only hinders progress.",
+        "question": "Religious claims should be subjected to the same critical scrutiny as any other claims about reality.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -923,7 +977,7 @@ questions = [
         }
     },
 	{
-        "question": "The seperation between church and state is paramount.",
+        "question": "A society can develop a coherent moral order without appealing to supernatural beliefs.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -935,8 +989,9 @@ questions = [
             "b8": 1,
         }
     },
+    /* SPIRITUAL QUESTIONS */
     {
-        "question": "There are moral rules that should never be broken.",
+        "question": "Religious values largely inform the rest of a person's belief system.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -949,7 +1004,7 @@ questions = [
         }
     },
     {
-        "question": "Schools should induce spiritual education.",
+        "question": "Religious tradition should have a meaningful place in the moral education of the nation.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -962,7 +1017,7 @@ questions = [
         }
     },
     {
-        "question": "Religion must be respected.",
+        "question": "A nation benefits from sharing a sacred narrative that gives its people a sense of higher purpose.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -975,7 +1030,7 @@ questions = [
         }
     },
 	{
-        "question": "Atheism is deplorable.",
+        "question": "Religious institutions should be able to influence the customs and values of society.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -988,7 +1043,7 @@ questions = [
         }
     },
     {
-        "question": "The nation must be united under one religion.",
+        "question": "Faith can provide forms of moral knowledge that reason alone cannot fully supply.",
         "effect": {
             "b1": 0,
             "b2": 0,
