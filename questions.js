@@ -65,6 +65,71 @@ questions = [
             "b8": 0,
         }
     },
+    {
+        "question": "The possibility of violent retaliation should not deter a movement from pursuing revolutionary objectives.",
+        "effect": {
+            "b1": 1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A genuine revolution must fundamentally break with the political legitimacy of the previous order.",
+        "effect": {
+            "b1": 1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Political power should be seized rather than entrusted to the movement through established procedures.",
+        "effect": {
+            "b1": 1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A revolution may require a period of instability before a fundamentally different political order can emerge.",
+        "effect": {
+            "b1": 1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Periods of political crisis can create opportunities for revolutionary change that ordinary political conditions cannot provide.",
+        "effect": {
+            "b1": 1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
     /* REFORM QUESTIONS */
     {
         "question": "We must partake in electoral politics in order to take office.",
@@ -120,6 +185,71 @@ questions = [
     },
     {
         "question": "A movement should demonstrate its ability to govern before attempting to transform society.",
+        "effect": {
+            "b1": -1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A movement can pursue fundamental political goals without treating its opponents as enemies who must be eliminated.",
+        "effect": {
+            "b1": -1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Political change should preserve whatever institutions of the existing order continue to serve the public good.",
+        "effect": {
+            "b1": -1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Political movements should seek to persuade the population before attempting to exercise power over it.",
+        "effect": {
+            "b1": -1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Proposed change should be discarded when the public consistently rejects it.",
+        "effect": {
+            "b1": -1,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A movement should prioritise changes that can survive changes in government rather than changes that depend on maintaining permanent political control.",
         "effect": {
             "b1": -1,
             "b2": 0,
@@ -197,6 +327,71 @@ questions = [
             "b8": 0,
         }
     },
+    {
+        "question": "The ownership of major economic institutions should be concentrated in the hands of the class that is to direct the nation.",
+        "effect": {
+            "b1": 0,
+            "b2": 1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Social advancement should not require the existing ruling class to relinquish its position of authority.",
+        "effect": {
+            "b1": 0,
+            "b2": 1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Economic relations should reinforce the authority of the class that occupies the highest position in the national hierarchy.",
+        "effect": {
+            "b1": 0,
+            "b2": 1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A subordinate class should serve the national role assigned to it rather than seek to redefine its position within the social order.",
+        "effect": {
+            "b1": 0,
+            "b2": 1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "The state should forcibly reorganise economic life whenever existing class relations prevent the ruling class from fulfilling its national function.",
+        "effect": {
+            "b1": 0,
+            "b2": 1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
     /* COLLABORATION QUESTIONS */
     {
         "question": "The unity of the nation requires each of its social & economic classes, regardless of their differences, to cooperate.",
@@ -263,7 +458,72 @@ questions = [
             "b8": 0,
         }
     },
-    /* ISOLATION QUESTIONS */
+    {
+        "question": "A national economic system should provide institutions through which the interests of capital, labour, and other productive groups can jointly influence economic policy.",
+        "effect": {
+            "b1": 0,
+            "b2": -1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Different classes should be able to retain distinct economic interests while participating in a common system for resolving disputes between them.",
+        "effect": {
+            "b1": 0,
+            "b2": -1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Classes deemed anti-national can often be reformed through labour or subjugation to a socialised system, rather than be fully expunged.",
+        "effect": {
+            "b1": 0,
+            "b2": -1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "The distinction between social classes should ultimately cease to determine a person's political standing or opportunities in society.",
+        "effect": {
+            "b1": 0,
+            "b2": -1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Leadership should be open to individuals from different social classes when they demonstrate the ability to serve the national interest.",
+        "effect": {
+            "b1": 0,
+            "b2": -1,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    /* AUTARKY QUESTIONS */
     {
         "question": "Alliances, even those with ideologically-aligned states, come at the cost of our own sovereignty.",
         "effect": {
@@ -329,7 +589,72 @@ questions = [
             "b8": 0,
         }
     },
-    /* COOPERATION QUESTIONS */
+    {
+        "question": "A nation should retain the freedom to pursue its own foreign policy even when this places it at odds with neighbouring states.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Foreign military bases and permanent deployments should not be permitted to become fixtures of our national defence.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Our state should avoid extending its political influence beyond its own borders when doing so would create obligations to foreign peoples or territories.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A nation should be willing to abandon major international institutions entirely, even through conflict, if membership prevents it from exercising unrestricted sovereignty.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Imperialism only serves to wrap ourselves up in foreign conflicts and drain ourselves of resources for the benefit of foreign people.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    /* HEGEMONY QUESTIONS */
     {
         "question": "We must work with ideologically-aligned states to build a new geopolitical bloc to challenge the current dominant powers.",
         "effect": {
@@ -384,6 +709,71 @@ questions = [
     },
     {
         "question": "The interests of allied nations can be sufficiently compatible to justify enduring commitments between them.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": -1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A nation should be prepared to subordinate some aspects of its immediate sovereignty to a powerful alliance when doing so creates a stronger and more independent geopolitical bloc.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": -1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "States with compatible national interests should coordinate their industrial and strategic planning rather than allowing each economy to develop in isolation.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": -1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "There are territories/regions beyond my nations current control that ought to be within our polity.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": -1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Economic imperialism is justified when it serves the interests of my country.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": -1,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Empire-building can be a virtuous endeavour.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -461,6 +851,71 @@ questions = [
             "b8": 0,
         }
     },
+    {
+        "question": "I would gladly accept a foreigner from abroad into my nation if they were willing to integrate and conform to my national culture over someone of my own country with radically different political beliefs.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A nation can preserve a distinctive culture through common institutions and education without requiring its population to share a common ancestry.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Immigrants bring a unique advantage to the nation, and thus should be incorporated or subsumed into it.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Things such as race are not concrete facts, and have no basis in reality.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Nations have historically been formed through the merger of different tribes and peoples; there is no inherent reason why such processes cannot continue today.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
     /* KINSHIP QUESTIONS */
     {
         "question": "The nation is a body of people who are defined primarily by shared ancestry.",
@@ -515,7 +970,72 @@ questions = [
         }
     },
     {
-        "question": "Immigration from biologically or culturally distant countries destroys nations through admixture.",
+        "question": "Immigration from biologically or phenotypically distant countries destroys nations through admixture.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": -1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A person's descendants should retain a claim to membership in the nation even when they live outside its territory for generations.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": -1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Intermarriage between distinct peoples can weaken the continuity of a nation by making inherited group boundaries less distinct.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": -1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "When the survival of my race is at stake, preserving its identity takes precedence over any other group.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": -1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Other races pose a threat to my ethnos/race merely by existing.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": -1,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "There are portions of my nations current population that are too ancestrally impure by merit of having mixed with other ethnic groups.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -569,6 +1089,71 @@ questions = [
     },
     {
         "question": "Inherited customs deserve preservation even when their original practical purpose is no longer apparent.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": -1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Some elements of the past are valuable precisely because they cannot be recreated once a society has abandoned them.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": -1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "People of the past experienced a greater degree of social cohesion than they do now, and we must return to past modes of society to create this.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": -1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "The march of social progress has only served to undermine our national interests.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": -1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Gender roles set in the past represent an ideal that should be reestablished.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": -1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A nation is strengthened when each generation regards itself as the inheritor of a cultural tradition rather than as the creator of an entirely new one.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -659,6 +1244,71 @@ questions = [
             "b8": 0,
         }
     },
+    {
+        "question": "A new national culture may need to break consciously with the values and social expectations inherited from previous generations.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Mass revolution against current culture is needed to truly develop a national identity and push my country into greatness.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Culture should experiment with unfamiliar forms of family, community, and social organisation when existing arrangements no longer suit the needs of the future.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Divergent sexuality or gender identity are no real malaise for my nation, and should not be excluded from it.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "We must embrace a dynamic culture, one that rejects even acknowledgement of the past.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 1,
+            "b6": 0,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
     /* DEVELOPMENT QUESTIONS */
     {
         "question": "Technological and industrial development is a necessity for the advancement of the nation.",
@@ -714,6 +1364,71 @@ questions = [
     },
 	{
         "question": "A nation should continually expand its productive capacity rather than settle for what it has already built.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A predominantly urban population is better suited to the economic and cultural development of a modern nation.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Scientific and technological progress should be pursued even when its long-term consequences cannot yet be fully predicted.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Automation and mechanisation should be embraced even when they make traditional forms of work and employment obsolete.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Emerging technologies such as artificial intelligence should be treated primarily as tools for advancing the nation's capabilities rather than as threats to its social order.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "A nation should transform its physical landscape wherever necessary to create the industrial and urban infrastructure required for national greatness.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -791,6 +1506,71 @@ questions = [
             "b8": 0,
         }
     },
+    {
+        "question": "Artisan goods produced locally have an inherent quality to them that surpasses even mass-produced goods.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": -1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "We should reject all technology ideally, as we were more purely a community before we developed complex society.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": -1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "The shift from rural-to-urban populations resulted from a wave of cosmopolitanism and rootless thought.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": -1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Technology is something to be at the least wary of, as it may have consequences for my people that we had yet to conceive of.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": -1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Material wealth has little to do with whether or not a nation is thriving. ",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": -1,
+            "b7": 0,
+            "b8": 0,
+        }
+    },
     /* TOTALITY QUESTIONS */
     {
         "question": "All within the state, nothing outside the state, nothing against the state.",
@@ -846,6 +1626,71 @@ questions = [
     },
 	{
         "question": "The institutions of civil society should serve the political and national objectives of the state rather than operate independently of them.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Uniform national policy is preferable to allowing different regions to pursue separate solutions to the same national problem.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Individual freedom should be restricted whenever exercising it would undermine the unity or objectives of the national community.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Society is inherently made up of layered collectives, with the individual owing loyalty to multiple, with the top-most group being the nation.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "The historical tendency toward greater centralisation of political power should be embraced rather than resisted.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Matters of national security require a cohesive and strong government, even if that requires overriding checks and balances from time to time.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -923,9 +1768,74 @@ questions = [
             "b8": 0,
         }
     },
+    {
+        "question": "There should be areas of social and personal life that the state has no legitimate authority to regulate, even when doing so could advance a collective national objective.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": -1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "The government should be required to justify major decisions to the public especially when those decisions are unpopular or controversial.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": -1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "The regional differences within my own country is notable enough to call for local autonomy.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": -1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Individualism is not antithetical to nationalism. Nationalism is, in fact, the individualism of nations.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": -1,
+            "b8": 0,
+        }
+    },
+    {
+        "question": "Activism and protest tell the government what the nation desires and provides valuable feedback.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": -1,
+            "b8": 0,
+        }
+    },
     /* MATERIAL QUESTIONS */
     {
-        "question": "Religion ought to be cast into the dustbin of history.",
+        "question": "Faith ought to be cast into the dustbin of history.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -978,6 +1888,71 @@ questions = [
     },
 	{
         "question": "A society can develop a coherent moral order without appealing to supernatural beliefs.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 1,
+        }
+    },
+    {
+        "question": "Traditional religious institutions promote an universalism that undermines our national interests and culture.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 1,
+        }
+    },
+    {
+        "question": "Decline in religious institutions can strengthen national cohesion by reducing the influence of transnational institutions and loyalties.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 1,
+        }
+    },
+    {
+        "question": "The state should maintain a clear institutional separation from religious organisations even when their teachings are widely supported by the population.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 1,
+        }
+    },
+    {
+        "question": "A person's loyalty to the nation should take precedence over obligations imposed by religious institutions or doctrines.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": 1,
+        }
+    },
+    {
+        "question": "Organised religion disappearing would ultimately benefit humanity by removing an obstacle to intellectual and social progress.",
         "effect": {
             "b1": 0,
             "b2": 0,
@@ -1044,6 +2019,71 @@ questions = [
     },
     {
         "question": "Faith can provide forms of moral knowledge that reason alone cannot fully supply.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": -1,
+        }
+    },
+    {
+        "question": "The decline of religious belief within a nation represents a loss of something essential to its collective identity.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": -1,
+        }
+    },
+    {
+        "question": "The state should actively promote religious observance as a means of strengthening national unity.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": -1,
+        }
+    },
+    {
+        "question": "Education across my nation should incorporate religious elements, to ensure the next generation has a proper moral upbringing.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": -1,
+        }
+    },
+    {
+        "question": "My nation is defined to some degree by religious identity.",
+        "effect": {
+            "b1": 0,
+            "b2": 0,
+            "b3": 0,
+            "b4": 0,
+            "b5": 0,
+            "b6": 0,
+            "b7": 0,
+            "b8": -1,
+        }
+    },
+    {
+        "question": "The ideal form of government would be one in which religious institutions constitute the whole state.",
         "effect": {
             "b1": 0,
             "b2": 0,

@@ -50,7 +50,7 @@
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
         document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
-        if (prev_answer == null) {
+        if (prev_answer == null && qn != 0) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
         } else {
@@ -78,21 +78,27 @@
         }
     }
     function prev_question() {
-        if (prev_answer == null) {
-            return;
+        if(qn > 0)
+        {
+            if (prev_answer == null) {
+                return;
+            }
+            qn--;
+            b1 -= prev_answer * questions[qn].effect.b1;
+            b2 -= prev_answer * questions[qn].effect.b2;
+            b3 -= prev_answer * questions[qn].effect.b3;
+            b4 -= prev_answer * questions[qn].effect.b4;
+            b5 -= prev_answer * questions[qn].effect.b5;
+            b6 -= prev_answer * questions[qn].effect.b6;
+            b7 -= prev_answer * questions[qn].effect.b7;
+            b8 -= prev_answer * questions[qn].effect.b8;
+            prev_answer = null;
+            init_question();
         }
-        qn--;
-        b1 -= prev_answer * questions[qn].effect.b1;
-        b2 -= prev_answer * questions[qn].effect.b2;
-        b3 -= prev_answer * questions[qn].effect.b3;
-        b4 -= prev_answer * questions[qn].effect.b4;
-        b5 -= prev_answer * questions[qn].effect.b5;
-        b6 -= prev_answer * questions[qn].effect.b6;
-        b7 -= prev_answer * questions[qn].effect.b7;
-        b8 -= prev_answer * questions[qn].effect.b8;
-        prev_answer = null;
-        init_question();
-
+        else
+        {
+            window.location.href = "instructions.html";
+        }
     }
     function calc_score(score,max) {
         return (100*(max+score)/(2*max)).toFixed(1)

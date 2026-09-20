@@ -78,7 +78,7 @@
 <h2>Closest Match : <span class="weight-300" id="ideology-label"></span></h2>
 <hr/>
 <img src="" id="banner">
-<button class="button" onclick="location.href='index.html';" style="background-color: #00a0e0;">Back</button> <br>
+<button class="button" onclick="location.href='index.html';" style="background-color: #526B70;">Back</button> <br>
 <script>
     function getQueryVariable(variable)
     {
@@ -103,10 +103,10 @@
 
     b1Array = ["Militant","Revolutionary","Radical","Ambivalent","Gradualist","Reformist","Pacifist"]
     b2Array = ["Supremacist","Dominant","Hierarchical","Ambivalent","Conciliatory","Collaborative","Integrative"]
-    b3Array = ["Autarkic","Isolationist","Sovereigntist","Ambivalent","Internationalist","Cooperative","Integrationist"]
-    b4Array = ["Civic-Nationalist","Assimilationist","Civic-Oriented","Ambivalent","Kinship-Oriented","Ethnicist","Racialist"]
-    b5Array = ["Futurist","Iconoclastic","Progressive","Ambivalent","Conservative","Reactionary","Traditionalist"]
-    b6Array = ["Expansionist","Developmentalist","Industrialist","Ambivalent","Conservationist","Naturalist","Primitivist"]
+    b3Array = ["Isolationist","Sovereigntist","Protectionist","Ambivalent","Cooperative","Hawkish","Expansionist"]
+    b4Array = ["Civic-Nationalist","Assimilationist","Cultural-Nationalist","Ambivalent","Particularist","Ethnicist","Racialist"]
+    b5Array = ["Futurist","Iconoclastic","Progressive","Ambivalent","Conservative","Traditionalist","Reactionary"]
+    b6Array = ["Fordist","Productivist","Industrialist","Ambivalent","Conservationist","Luddite","Primitivist"]
     b7Array = ["Totalitarian","Unitary","Centralist","Ambivalent","Decentralist","Pluralist","Polycentric"]
     b8Array = ["Antitheist","Laïcard","Secularist","Ambivalent","Religious","Clericist","Theocrat"]
 
@@ -309,7 +309,7 @@
         ctx.fillText("Identity Axis : " + document.getElementById("b4").innerHTML, 400, 535)
         ctx.fillText("Cultural Axis : " + document.getElementById("b5").innerHTML, 400, 655)
         ctx.fillText("Technological Axis : " + document.getElementById("b6").innerHTML, 400, 775)
-        ctx.fillText("Societal Axis : " + document.getElementById("b7").innerHTML, 400, 895)
+        ctx.fillText("Political Axis : " + document.getElementById("b7").innerHTML, 400, 895)
         ctx.fillText("Religious Axis : " + document.getElementById("b8").innerHTML, 400, 1015)
 
         document.getElementById("banner").src = c.toDataURL();
