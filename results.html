@@ -2,8 +2,8 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
 <title>ThirdPositionValues Results</title>
-<link rel="icon" type="x-icon" href="vanguardicon.png">
-<link rel="shortcut icon" type="x-icon" href="vanguardicon.png">
+<link rel="icon" type="x-icon" href="3Pvaluesicon.png">
+<link rel="shortcut icon" type="x-icon" href="3Pvaluesicon.png">
 <meta charset="utf-8">
 <script>
   version = ""
@@ -11,6 +11,9 @@
 </head>
 <script type="application/javascript"
         src="ideologies.js">
+</script>
+<script type="application/javascript"
+        src="labelArrays.js">
 </script>
 
 <body>
@@ -101,14 +104,14 @@
         }
     }
 
-    b1Array = ["Militant","Revolutionary","Radical","Ambivalent","Gradualist","Reformist","Pacifist"]
-    b2Array = ["Supremacist","Dominant","Hierarchical","Ambivalent","Conciliatory","Collaborative","Integrative"]
-    b3Array = ["Isolationist","Sovereigntist","Protectionist","Ambivalent","Cooperative","Hawkish","Expansionist"]
-    b4Array = ["Civic-Nationalist","Assimilationist","Cultural-Nationalist","Ambivalent","Particularist","Ethnicist","Racialist"]
-    b5Array = ["Futurist","Iconoclastic","Progressive","Ambivalent","Conservative","Traditionalist","Reactionary"]
-    b6Array = ["Fordist","Productivist","Industrialist","Ambivalent","Conservationist","Luddite","Primitivist"]
-    b7Array = ["Totalitarian","Unitary","Centralist","Ambivalent","Decentralist","Pluralist","Polycentric"]
-    b8Array = ["Antitheist","Laïcard","Secularist","Ambivalent","Religious","Clericist","Theocrat"]
+    b1Array = labelArrays[0];
+    b2Array = labelArrays[1];
+    b3Array = labelArrays[2];
+    b4Array = labelArrays[3];
+    b5Array = labelArrays[4];
+    b6Array = labelArrays[5];
+    b7Array = labelArrays[6];
+    b8Array = labelArrays[7];
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else

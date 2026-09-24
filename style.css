@@ -117,7 +117,7 @@ img.center {
     margin: -2px auto;
     cursor: pointer;
 }
-.small_button, .small_button_off {
+.small_button {
     background-color: #505050;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -134,14 +134,42 @@ img.center {
     margin: -2px auto;
     cursor: pointer;
 }
-.small_button_off {
-    background-color: #c0c0c0;
-    font-weight: bold;
-    color: #505050;
-    border: 6px solid #000000;
-    cursor: not-allowed;
-    margin: -4px auto;
+
+select, ::picker(select) {
+    appearance: base-select;
 }
+
+select {
+    background-color: #526B70;
+    color: #ffffff;
+    border: 6px solid #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    border-radius: 8pt;
+    padding: 10px;
+    width: 600px;
+}
+
+.parent-select {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+::picker(select) {
+    background-color: #526B70;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+option {
+    padding: 8px 12px;
+    color: #ffffff;
+}
+
+
+
 div.axis {
     width: 100%;
     display: flex;

@@ -1,0 +1,36 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>ThirdPositionValues</title>
+<link rel="icon" type="x-icon" href="3Pvaluesicon.png">
+<link rel="shortcut icon" type="x-icon" href="3Pvaluesicon.png">
+<meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6511426299019766",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+<body>
+<img src="ThirdPositionValues.png" class="center"></img>
+<hr>
+<h2 style="text-align:center;">Quiz Selection</h2>
+<p class="question">Choose the quiz you would like to do.</p>
+<button class="button" onclick="set_questions('y', 'n')" style="background-color: #A94F3D;">160 Questions</button> <br>
+<button class="button" onclick="set_questions('y', 'y')" style="background-color: #C98252;">160 Questions (Randomised)</button> <br>
+<button class="button" onclick="set_questions('n', 'n')" style="background-color: #7C6254;">80 Questions</button> <br>
+<button class="button" onclick="set_questions('n', 'y')" style="background-color: #573F3A;">80 Questions (Randomised)</button> <br>
+<button class="small_button" onclick="location.href='index.html';" id="back_button">Back</button>
+
+<script>
+    function set_questions(long_quiz, random_quiz) 
+    {
+        sessionStorage.setItem("long_quiz", long_quiz);
+        sessionStorage.setItem("random_quiz", random_quiz);
+        window.location.href = "quiz.html";
+    }
+</script>
+</body>
+
