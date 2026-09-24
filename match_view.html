@@ -189,136 +189,136 @@
         document.getElementById("b6").innerHTML = setLabel(v11, b6Array)
         document.getElementById("b7").innerHTML = setLabel(v13, b7Array)
         document.getElementById("b8").innerHTML = setLabel(v15, b8Array)
-    }
 
-    function createImage(src, x, y, w, h) {
-        img = new Image ()
-        img.src = src
-        img.onLoad = function() {
-            ctx.drawImage(img, x, y, w, h)
+        function createImage(src, x, y, w, h) {
+            img = new Image ()
+            img.src = src
+            img.onLoad = function() {
+                ctx.drawImage(img, x, y, w, h)
+            }
         }
-    }
 
-    window.onload = function() {
-        var c = document.createElement("canvas")
-        var ctx = c.getContext("2d")
-        c.width = 800;
-        c.height = 1125;
-        ctx.fillStyle = "#e0e0e0"
-        ctx.fillRect(0,0,800,1125);
+        window.onload = function() {
+            var c = document.createElement("canvas")
+            var ctx = c.getContext("2d")
+            c.width = 800;
+            c.height = 1125;
+            ctx.fillStyle = "#e0e0e0"
+            ctx.fillRect(0,0,800,1125);
 
-        img = document.getElementById("img-v1")
-        ctx.drawImage(img, 20, 170, 100, 100)
-        img = document.getElementById("img-v2")
-        ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-v3")
-        ctx.drawImage(img, 20, 290, 100, 100)
-        img = document.getElementById("img-v4")
-        ctx.drawImage(img, 680, 290, 100, 100)
-        img = document.getElementById("img-v5")
-        ctx.drawImage(img, 20, 410, 100, 100)
-        img = document.getElementById("img-v6")
-        ctx.drawImage(img, 680, 410, 100, 100)
-        img = document.getElementById("img-v7")
-        ctx.drawImage(img, 20, 530, 100, 100)
-        img = document.getElementById("img-v8")
-        ctx.drawImage(img, 680, 530, 100, 100)
-        img = document.getElementById("img-v9")
-        ctx.drawImage(img, 20, 650, 100, 100)
-        img = document.getElementById("img-v10")
-        ctx.drawImage(img, 680, 650, 100, 100)
-        img = document.getElementById("img-v11")
-        ctx.drawImage(img, 20, 770, 100, 100);
-        img = document.getElementById("img-v12")
-        ctx.drawImage(img, 680, 770, 100, 100)
-        img = document.getElementById("img-v13")
-        ctx.drawImage(img, 20, 890, 100, 100)
-        img = document.getElementById("img-v14")
-        ctx.drawImage(img, 680, 890, 100, 100)
-        img = document.getElementById("img-v15")
-        ctx.drawImage(img, 20, 1010, 100, 100)
-        img = document.getElementById("img-v16")
-        ctx.drawImage(img, 680, 1010, 100, 100)
+            img = document.getElementById("img-v1")
+            ctx.drawImage(img, 20, 170, 100, 100)
+            img = document.getElementById("img-v2")
+            ctx.drawImage(img, 680, 170, 100, 100)
+            img = document.getElementById("img-v3")
+            ctx.drawImage(img, 20, 290, 100, 100)
+            img = document.getElementById("img-v4")
+            ctx.drawImage(img, 680, 290, 100, 100)
+            img = document.getElementById("img-v5")
+            ctx.drawImage(img, 20, 410, 100, 100)
+            img = document.getElementById("img-v6")
+            ctx.drawImage(img, 680, 410, 100, 100)
+            img = document.getElementById("img-v7")
+            ctx.drawImage(img, 20, 530, 100, 100)
+            img = document.getElementById("img-v8")
+            ctx.drawImage(img, 680, 530, 100, 100)
+            img = document.getElementById("img-v9")
+            ctx.drawImage(img, 20, 650, 100, 100)
+            img = document.getElementById("img-v10")
+            ctx.drawImage(img, 680, 650, 100, 100)
+            img = document.getElementById("img-v11")
+            ctx.drawImage(img, 20, 770, 100, 100);
+            img = document.getElementById("img-v12")
+            ctx.drawImage(img, 680, 770, 100, 100)
+            img = document.getElementById("img-v13")
+            ctx.drawImage(img, 20, 890, 100, 100)
+            img = document.getElementById("img-v14")
+            ctx.drawImage(img, 680, 890, 100, 100)
+            img = document.getElementById("img-v15")
+            ctx.drawImage(img, 20, 1010, 100, 100)
+            img = document.getElementById("img-v16")
+            ctx.drawImage(img, 680, 1010, 100, 100)
 
-        ctx.fillStyle="#000000"
-        ctx.fillRect(120, 185, 560, 70)
-        ctx.fillRect(120, 305, 560, 70)
-        ctx.fillRect(120, 425, 560, 70)
-        ctx.fillRect(120, 545, 560, 70)
-        ctx.fillRect(120, 665, 560, 70)
-        ctx.fillRect(120, 785, 560, 70)
-        ctx.fillRect(120, 905, 560, 70)
-        ctx.fillRect(120, 1025, 560, 70)
-        ctx.fillStyle="#C96B4B"
-        ctx.fillRect(120, 189, 5.6*v1-2, 62)
-        ctx.fillStyle="#D6A85F"
-        ctx.fillRect(682-5.6*v2, 189, 5.6*v2-2, 62)
-        ctx.fillStyle="#B49362"
-        ctx.fillRect(120, 309, 5.6*v3-2, 62)
-        ctx.fillStyle="#B88A6A"
-        ctx.fillRect(682-5.6*v4, 309, 5.6*v4-2, 62)
-        ctx.fillStyle="#6F8461"
-        ctx.fillRect(120, 429, 5.6*v5-2, 62)
-        ctx.fillStyle="#6D9A91"
-        ctx.fillRect(682-5.6*v6, 429, 5.6*v6-2, 62)
-        ctx.fillStyle="#C39B68"
-        ctx.fillRect(120, 549, 5.6*v7-2, 62)
-        ctx.fillStyle="#A94F45"
-        ctx.fillRect(682-5.6*v8, 549, 5.6*v8-2, 62)
-        ctx.fillStyle="#B56A78"
-        ctx.fillRect(120, 669, 5.6*v9-2, 62)
-        ctx.fillStyle="#88705C"
-        ctx.fillRect(682-5.6*v10, 669, 5.6*v10-2, 62)
-        ctx.fillStyle="#B9784E"
-        ctx.fillRect(120, 789, 5.6*v11-2, 62)
-        ctx.fillStyle="#78906B"
-        ctx.fillRect(682-5.6*v12, 789, 5.6*v12-2, 62)
-        ctx.fillStyle="#5E536B"
-        ctx.fillRect(120, 909, 5.6*v13-2, 62)
-        ctx.fillStyle="#9A7B9B"
-        ctx.fillRect(682-5.6*v14, 909, 5.6*v14-2, 62)
-        ctx.fillStyle="#71858B"
-        ctx.fillRect(120, 1029, 5.6*v15-2, 62)
-        ctx.fillStyle="#B49362"
-        ctx.fillRect(682-5.6*v16, 1029, 5.6*v16-2, 62)
-        ctx.fillStyle="#000000"
-        ctx.font="700 50px Montserrat"
-        ctx.textAlign="left"
-        ctx.fillText("ThirdPositionValues", 20, 70)
-        ctx.font="30px Montserrat"
-        ctx.fillText(ideologies[selectedMatch].name, 20, 120)
+            ctx.fillStyle="#000000"
+            ctx.fillRect(120, 185, 560, 70)
+            ctx.fillRect(120, 305, 560, 70)
+            ctx.fillRect(120, 425, 560, 70)
+            ctx.fillRect(120, 545, 560, 70)
+            ctx.fillRect(120, 665, 560, 70)
+            ctx.fillRect(120, 785, 560, 70)
+            ctx.fillRect(120, 905, 560, 70)
+            ctx.fillRect(120, 1025, 560, 70)
+            ctx.fillStyle="#C96B4B"
+            ctx.fillRect(120, 189, 5.6*v1-2, 62)
+            ctx.fillStyle="#D6A85F"
+            ctx.fillRect(682-5.6*v2, 189, 5.6*v2-2, 62)
+            ctx.fillStyle="#B49362"
+            ctx.fillRect(120, 309, 5.6*v3-2, 62)
+            ctx.fillStyle="#B88A6A"
+            ctx.fillRect(682-5.6*v4, 309, 5.6*v4-2, 62)
+            ctx.fillStyle="#6F8461"
+            ctx.fillRect(120, 429, 5.6*v5-2, 62)
+            ctx.fillStyle="#6D9A91"
+            ctx.fillRect(682-5.6*v6, 429, 5.6*v6-2, 62)
+            ctx.fillStyle="#C39B68"
+            ctx.fillRect(120, 549, 5.6*v7-2, 62)
+            ctx.fillStyle="#A94F45"
+            ctx.fillRect(682-5.6*v8, 549, 5.6*v8-2, 62)
+            ctx.fillStyle="#B56A78"
+            ctx.fillRect(120, 669, 5.6*v9-2, 62)
+            ctx.fillStyle="#88705C"
+            ctx.fillRect(682-5.6*v10, 669, 5.6*v10-2, 62)
+            ctx.fillStyle="#B9784E"
+            ctx.fillRect(120, 789, 5.6*v11-2, 62)
+            ctx.fillStyle="#78906B"
+            ctx.fillRect(682-5.6*v12, 789, 5.6*v12-2, 62)
+            ctx.fillStyle="#5E536B"
+            ctx.fillRect(120, 909, 5.6*v13-2, 62)
+            ctx.fillStyle="#9A7B9B"
+            ctx.fillRect(682-5.6*v14, 909, 5.6*v14-2, 62)
+            ctx.fillStyle="#71858B"
+            ctx.fillRect(120, 1029, 5.6*v15-2, 62)
+            ctx.fillStyle="#B49362"
+            ctx.fillRect(682-5.6*v16, 1029, 5.6*v16-2, 62)
+            ctx.fillStyle="#000000"
+            ctx.font="700 50px Montserrat"
+            ctx.textAlign="left"
+            ctx.fillText("ThirdPositionValues", 20, 70)
+            ctx.font="30px Montserrat"
+            ctx.fillText(ideologies[selectedMatch].name, 20, 120)
 
-        ctx.textAlign="left"
-        if (v1 >= 25) {ctx.fillText(v1 + "%", 130, 232.5)}
-        if (v3 >= 25) {ctx.fillText(v3 + "%", 130, 352.5)}
-        if (v5 >= 25) {ctx.fillText(v5 + "%", 130, 472.5)}
-        if (v7 >= 25) {ctx.fillText(v7 + "%", 130, 592.5)}
-        if (v9 >= 25) {ctx.fillText(v9 + "%", 130, 712.5)}
-        if (v11 >= 25) {ctx.fillText(v11 + "%", 130, 832.5)}
-        if (v13 >= 25) {ctx.fillText(v13 + "%", 130, 952.5)}
-        if (v15 >= 25) {ctx.fillText(v15 + "%", 130, 1072.5)}
-        ctx.textAlign="right"
-        if (v2 >= 25) {ctx.fillText(v2 + "%", 670, 232.5)}
-        if (v4 >= 25) {ctx.fillText(v4 + "%", 670, 352.5)}
-        if (v6 >= 25) {ctx.fillText(v6 + "%", 670, 472.5)}
-        if (v8 >= 25) {ctx.fillText(v8 + "%", 670, 592.5)}
-        if (v10 >= 25) {ctx.fillText(v10 + "%", 670, 712.5)}
-        if (v12 >= 25) {ctx.fillText(v12 + "%", 670, 832.5)}
-        if (v14 >= 25) {ctx.fillText(v14 + "%", 670, 952.5)}
-        if (v16 >= 25) {ctx.fillText(v16 + "%", 670, 1072.5)}
+            ctx.textAlign="left"
+            if (v1 >= 25) {ctx.fillText(v1 + "%", 130, 232.5)}
+            if (v3 >= 25) {ctx.fillText(v3 + "%", 130, 352.5)}
+            if (v5 >= 25) {ctx.fillText(v5 + "%", 130, 472.5)}
+            if (v7 >= 25) {ctx.fillText(v7 + "%", 130, 592.5)}
+            if (v9 >= 25) {ctx.fillText(v9 + "%", 130, 712.5)}
+            if (v11 >= 25) {ctx.fillText(v11 + "%", 130, 832.5)}
+            if (v13 >= 25) {ctx.fillText(v13 + "%", 130, 952.5)}
+            if (v15 >= 25) {ctx.fillText(v15 + "%", 130, 1072.5)}
+            ctx.textAlign="right"
+            if (v2 >= 25) {ctx.fillText(v2 + "%", 670, 232.5)}
+            if (v4 >= 25) {ctx.fillText(v4 + "%", 670, 352.5)}
+            if (v6 >= 25) {ctx.fillText(v6 + "%", 670, 472.5)}
+            if (v8 >= 25) {ctx.fillText(v8 + "%", 670, 592.5)}
+            if (v10 >= 25) {ctx.fillText(v10 + "%", 670, 712.5)}
+            if (v12 >= 25) {ctx.fillText(v12 + "%", 670, 832.5)}
+            if (v14 >= 25) {ctx.fillText(v14 + "%", 670, 952.5)}
+            if (v16 >= 25) {ctx.fillText(v16 + "%", 670, 1072.5)}
 
-        ctx.font="300 30px Montserrat"
-        ctx.textAlign="center"
-        ctx.fillText("Practical Axis: " + document.getElementById("b1").innerHTML, 400, 175)
-        ctx.fillText("Class Axis : " + document.getElementById("b2").innerHTML, 400, 295)
-        ctx.fillText("Diplomatic Axis : " + document.getElementById("b3").innerHTML, 400, 415)
-        ctx.fillText("Identity Axis : " + document.getElementById("b4").innerHTML, 400, 535)
-        ctx.fillText("Cultural Axis : " + document.getElementById("b5").innerHTML, 400, 655)
-        ctx.fillText("Technological Axis : " + document.getElementById("b6").innerHTML, 400, 775)
-        ctx.fillText("Political Axis : " + document.getElementById("b7").innerHTML, 400, 895)
-        ctx.fillText("Religious Axis : " + document.getElementById("b8").innerHTML, 400, 1015)
+            ctx.font="300 30px Montserrat"
+            ctx.textAlign="center"
+            ctx.fillText("Practical Axis: " + document.getElementById("b1").innerHTML, 400, 175)
+            ctx.fillText("Class Axis : " + document.getElementById("b2").innerHTML, 400, 295)
+            ctx.fillText("Diplomatic Axis : " + document.getElementById("b3").innerHTML, 400, 415)
+            ctx.fillText("Identity Axis : " + document.getElementById("b4").innerHTML, 400, 535)
+            ctx.fillText("Cultural Axis : " + document.getElementById("b5").innerHTML, 400, 655)
+            ctx.fillText("Technological Axis : " + document.getElementById("b6").innerHTML, 400, 775)
+            ctx.fillText("Political Axis : " + document.getElementById("b7").innerHTML, 400, 895)
+            ctx.fillText("Religious Axis : " + document.getElementById("b8").innerHTML, 400, 1015)
 
-        document.getElementById("banner").src = c.toDataURL();
+            document.getElementById("banner").src = c.toDataURL();
+        }
     }
     </script>
 </body>
